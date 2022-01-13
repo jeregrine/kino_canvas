@@ -5,7 +5,7 @@
 ```elixir
 Mix.install(
   [
-    {:kino_canvas, path: "~/projects/kino_canvas"}
+    {:kino_canvas, github: "jeregrine/kino_canvas"}
   ]
 )
 ```
