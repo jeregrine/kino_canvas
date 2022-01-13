@@ -21,7 +21,7 @@ defmodule KinoCanvas.API do
     end)
     |> Enum.into(%{})
 
-  %{"data" => bcd } =
+  %{"data" => bcd} =
     File.read!("#{dir}/compat.json")
     |> Jason.decode!()
 
@@ -97,4 +97,3 @@ defmodule KinoCanvas.API do
     end
   end
 end
-

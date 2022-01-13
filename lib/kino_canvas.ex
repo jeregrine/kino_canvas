@@ -18,4 +18,3 @@ defmodule KinoCanvas do
     Kino.JS.new(__MODULE__, ctx)
   end
 end
-
